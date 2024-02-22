@@ -1,7 +1,7 @@
 export const info = {
     name: "Aditya Bekti",
     jobDesc: "Software Engineer",
-    about: "Versatile Software Developer with a passion for web and mobile technologies. Adept at exploring and adopting cutting-edge tools and methodologies, including expertise in development using Flutter and containerization with Docker. Skilled in a variety of programming frameworks and languages, including Laravel, React.js, CodeIgniter, Docker, and Flutter.",
+    about: "I'm a Software Engineer based in Jakarta, Indonesia. I have a passion for programming and mobile technologies. Adept at exploring and adopting cutting-edge tools and methodologies. Skilled in a variety of programming frameworks and languages, including Laravel, React.js, CodeIgniter, Docker, and Flutter.",
     experience: [
         {
             name: "Programming & Networking Teacher",
@@ -25,7 +25,7 @@ export const info = {
                 "Conducted research and analysis to identify opportunities for automation in Inventory Management processes.",
                 "Provided troubleshooting support for computer-related issues reported by students, faculty, and staff."
             ],
-            skill: ["MySQL", "PHP", "Git", "Scrum", ""]
+            skill: ["MySQL", "PHP", "Git", "Scrum", "Agile Methodologies", "Codeigniter"]
         }
     ],
     education: [
@@ -46,7 +46,16 @@ export const info = {
     ],
     projects: [
         {
-
+            name: "E-Kuper (Lecture E-Questionnaire)",
+            tools: ["Laravel", "Flutter", "Dart", "PostgreSQL", "REST API", "Docker"],
+            task: [
+                "Developed web applications using Laravel, PostgreSQL, and PHP, ensuring optimal user experiences.",
+                "Implemented REST API and integrated PostgreSQL to ensure data retrieval on desktop and mobile devices.",
+                "Developed hybrid applications for desktop and mobile platforms using Dart and Flutter, optimizing cross-platform functionality and user accessibility.",
+                "Applied expertise in Laravel for the backend development, ensuring the application met the specific requirements of the Informatics Engineering Education Study Program.",
+                "Designed and implemented a Docker-based backend, enabling the application to handle concurrent usage by 30,000 users without compromising performance.",
+                "Explored the integration of microservices to distribute the backend load effectively, enhancing the scalability and responsiveness of the overall application."
+            ]
         }
     ],
     socialMedia: {

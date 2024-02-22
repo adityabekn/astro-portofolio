@@ -1,9 +1,9 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import { info } from "@data";
+import Layout from "@layouts/Layout.astro";
+import Hero from "@components/home/Hero.astro";
 ---
 
-<Layout title="Home">
-  <main class="bg-black">
-    <span class="text-white">Hello World</span>
-  </main>
+<Layout title="Portfolio" description={info.about}>
+  <Hero />
 </Layout>
