@@ -1,9 +1,13 @@
 ---
-import { info } from "@data";
+import info from "src/data/info.json";
 import Layout from "@layouts/Layout.astro";
 import Hero from "@components/home/Hero.astro";
+import Experience from "@components/home/Experience.astro";
+import Education from "@components/home/Education.astro";
 ---
 
 <Layout title="Portfolio" description={info.about}>
   <Hero />
+  <Experience title="EXPERIENCE" />
+  <Education title="EDUCATION" />
 </Layout>
