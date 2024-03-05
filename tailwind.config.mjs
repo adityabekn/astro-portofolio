@@ -2,7 +2,12 @@
 export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				'main-dark': '#1C1B22',
+				'main-purple': '#FBFBFE'
+			}
+		},
 	},
 	plugins: [],
 }
