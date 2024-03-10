@@ -5,13 +5,15 @@ export default {
 		extend: {
 			colors: {
 				'main-dark': '#1C1B22',
+				'main-black': '#111111',
 				'main-green': '#a8fea0',
 				'main-orange': '#FE6313',
 				'main-red': '#FF5943'
 			}
 		},
 		fontFamily: {
-			'Poppins': ['Poppins']
+			'Poppins': ['Poppins', 'sans-serif'],
+			'Lato': ['Lato', 'sans-serif']
 		}
 	},
 	plugins: [],
