@@ -5,9 +5,14 @@ export default {
 		extend: {
 			colors: {
 				'main-dark': '#1C1B22',
-				'main-purple': '#FBFBFE'
+				'main-green': '#a8fea0',
+				'main-orange': '#FE6313',
+				'main-red': '#FF5943'
 			}
 		},
+		fontFamily: {
+			'Poppins': ['Poppins']
+		}
 	},
 	plugins: [],
 }
